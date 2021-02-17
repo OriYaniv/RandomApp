@@ -54,7 +54,7 @@ public class SecondActivity extends AppCompatActivity implements View.OnClickLis
         new CountDownTimer(30000, 1000) {
 
             public void onTick(long millisUntilFinished) {
-                textViewTimer.setText("seconds remaining: " + millisUntilFinished / 1000);
+                textViewTimer.setText("Seconds remaining: " + millisUntilFinished / 1000);
             }
 
             public void onFinish() {
